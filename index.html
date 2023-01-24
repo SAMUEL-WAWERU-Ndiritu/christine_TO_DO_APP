@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="./style.css"/>
+    <title>Document</title>
+</head>
+
+    <body>
+        <div class="task-input-container">
+            <input type="text" id="new-task-title" placeholder="Task Title">
+            <input type="text" id="new-task-description" placeholder="Task Description">
+            <input type="date" id="new-task-date">
+            <button id="add-button">Add Task</button>
+        </div>
+        <div class="tasks-container"></div>
+        <div class="task-count-container">
+            <p>Total Tasks: <span id="task-count"></span></p>
+            <p>Completed Tasks: <span id="task-completed-count"></span></p>
+            <p>Late Tasks: <span id="task-late-count"></span></p>
+            <p>On-time Tasks: <span id="task-ontime-count"></span></p>
+        </div>
+    
+      <script src="./index.js"></script>
+    </body>
+
+</html>

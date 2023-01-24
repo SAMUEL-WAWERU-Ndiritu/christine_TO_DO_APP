@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.task-input-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.task-input-container input {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#add-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+#add-button:hover {
+  background-color: #3e8e41;
+}
+
+.tasks-container {
+  margin: 20px;
+}
+
+.task-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.task-card p {
+  margin: 0;
+}
+
+.task-card .task-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.task-card .task-buttons button {
+  padding: 5px 10px;
+  margin-left: 10px;
+  font-size: 14px;
+  background-color: #f44336;
+  color: white;
+  cursor: pointer
+}
+
+.task-card .task-buttons button:hover {
+    background-color: #d32f2f;
+}
+
+.task-card.completed {
+    background-color: #d9ffb3;
+}
+
+.task-count-container {
+    margin: 20px;
+    text-align: center;
+}
+
+.task-count-container p {
+    margin: 0;
+    font-size: 18px;
+}
